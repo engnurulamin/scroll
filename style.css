@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -82,7 +85,6 @@ p {
 } */
 .section {
   padding-bottom: 5rem;
-  background-color: none;
 }
 .section-center {
   width: 90vw;
@@ -192,7 +194,7 @@ nav {
   }
   .links a:hover {
     color:white;
-    background-color:rgba(23, 223, 223, 0.486);
+    /* background-color:rgba(23, 223, 223, 0.486); */
     border-radius: 8px;
   }
   /* .links a:active{
@@ -238,20 +240,21 @@ header {
   /* margin-top: 10px; */
   height: 80vh;
   background: rgb(237, 245, 243);
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 #tours {
   /* margin-top: 10px; */
   height: 80vh;
   background: rgb(237, 245, 243);
-  padding-top: 50px;
+  padding-top: 20px;
 }
 #services {
   background:#fff;
   /* margin-top: 10px; */
   height: 80vh;
-  padding-top: 50px;
+  padding-top: 20px;
+ 
 }
 footer {
   background: hsl(209, 61%, 16%);
@@ -269,6 +272,7 @@ footer p {
   position: fixed;
   bottom: 3rem;
   right: 3rem;
+  /* background:#fff; */
   background: hsla(182, 63%, 54%);
   width: 2rem;
   height: 2rem;
